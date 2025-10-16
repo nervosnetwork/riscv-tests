@@ -22,7 +22,7 @@ default: musl all
 
 musl:
 	git clone https://github.com/xxuejie/musl
-	cd musl && ./ckb/build.sh && cd ..
+	cd musl && git checkout 01ff4b57cb8af5e8c5df1239cc1a5a064452b70d && ./ckb/build.sh && cd ..
 
 #--------------------------------------------------------------------
 # Build rules
