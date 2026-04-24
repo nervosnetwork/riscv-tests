@@ -21,8 +21,8 @@ include $(src_dir)/rv32ua/Makefrag
 default: musl all
 
 musl:
-	git clone https://github.com/xxuejie/musl
-	cd musl && git checkout 01ff4b57cb8af5e8c5df1239cc1a5a064452b70d && ./ckb/build.sh && cd ..
+	git clone https://github.com/nervosnetwork/musl
+	cd musl && git checkout a4809dfd5a5dafd4aa7ee41a76634c3ff46c2dc5 && ./ckb/build.sh && cd ..
 
 #--------------------------------------------------------------------
 # Build rules
